@@ -1,0 +1,51 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "bekuhs",
+        "fullName": "Rebekah Grandey"
+      },
+      {
+        "id": 2,
+        "username": "tnflyguy",
+        "fullName": "Nick Grandey"
+      }
+    ],
+    "recipeCategories": [
+        {
+            "id": 1,
+            "name": "food"
+        },
+        {
+            "id": 2,
+            "name": "beverage"
+        },
+        {
+            "id": 3,
+            "name": "dessert"
+        }
+    ],
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Baratheon Boar Ribs",
+        "imageUrl": "https://thestarvingchefblog.com/wp-content/uploads/2022/03/game-of-thrones-party-recipe.png",
+        "description": "I used pork ribs and braised them for about an hour to lock in all of the tender juiciness.",
+        "ingredients": "32 oz pork ribs ½ cup red or white wine 3 tablespoons apple cider vinegar 4 tablespoons local honey ½ cup onion or pearl onions chopped",
+        "instructions": "",
+        "filmId": 1,
+        "userId": 2,
+        "recipeCategoryId": 1
+      }
+    ],
+    "films": [
+        {
+            "id": 1,
+            "name": "Game of Thrones"
+        },
+        {
+          "id": 2,
+          "name": "Harry Potter"
+      }
+    ]
+  }
