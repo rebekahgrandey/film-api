@@ -1,51 +1,334 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "username": "bekuhs",
-        "fullName": "Rebekah Grandey"
-      },
-      {
-        "id": 2,
-        "username": "tnflyguy",
-        "fullName": "Nick Grandey"
-      }
-    ],
-    "recipeCategories": [
-        {
-            "id": 1,
-            "name": "food"
-        },
-        {
-            "id": 2,
-            "name": "beverage"
-        },
-        {
-            "id": 3,
-            "name": "dessert"
-        }
-    ],
-    "recipes": [
-      {
-        "id": 1,
-        "name": "Baratheon Boar Ribs",
-        "imageUrl": "https://thestarvingchefblog.com/wp-content/uploads/2022/03/game-of-thrones-party-recipe.png",
-        "description": "I used pork ribs and braised them for about an hour to lock in all of the tender juiciness.",
-        "ingredients": "32 oz pork ribs ½ cup red or white wine 3 tablespoons apple cider vinegar 4 tablespoons local honey ½ cup onion or pearl onions chopped",
-        "instructions": "",
-        "filmId": 1,
-        "userId": 2,
-        "recipeCategoryId": 1
-      }
-    ],
-    "films": [
-        {
-            "id": 1,
-            "name": "Game of Thrones"
-        },
-        {
-          "id": 2,
-          "name": "Harry Potter"
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "username": "bekuhs",
+      "fullName": "Rebekah Grandey"
+    },
+    {
+      "id": 2,
+      "username": "tnflyguy",
+      "fullName": "Nick Grandey"
+    },
+    {
+      "fullName": "Jane Doe",
+      "username": "janedoe",
+      "id": 3
+    },
+    {
+      "fullName": "Annie Grandey",
+      "username": "ragdoll_kiki",
+      "id": 4
+    },
+    {
+      "fullName": "Sheila Taylor",
+      "username": "sheila-t",
+      "id": 5
+    },
+    {
+      "fullName": "John Doe",
+      "username": "johndoe",
+      "id": 6
+    },
+    {
+      "fullName": "Gabriel Smith",
+      "username": "katara92",
+      "id": 7
+    },
+    {
+      "fullName": "Annie Grandey",
+      "username": "annie1",
+      "id": 8
+    },
+    {
+      "fullName": "Greta Fleet",
+      "username": "gfleet",
+      "id": 9
+    },
+    {
+      "fullName": "George Taylor",
+      "username": "georget",
+      "id": 10
+    }
+  ],
+  "recipeCategories": [
+    {
+      "id": 1,
+      "name": "food"
+    },
+    {
+      "id": 2,
+      "name": "beverage"
+    },
+    {
+      "id": 3,
+      "name": "dessert"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Baratheon Boar Ribs",
+      "imageUrl": "https://thestarvingchefblog.com/wp-content/uploads/2022/03/game-of-thrones-party-recipe.png",
+      "description": "I used pork ribs and braised them for about an hour to lock in all of the tender juiciness.",
+      "ingredients": "32 oz pork ribs ½ cup red or white wine 3 tablespoons apple cider vinegar 4 tablespoons local honey ½ cup onion or pearl onions chopped",
+      "instructions": "these are the instructions",
+      "filmId": 1,
+      "userId": 2,
+      "recipeCategoryId": 1
+    },
+    {
+      "filmId": 11,
+      "name": "Boba Drink",
+      "imageUrl": "https://tourandtable.com/wp-content/uploads/2019/04/IMG_1251-e1556457063618.jpg",
+      "description": "It's very good ",
+      "ingredients": "Popping boba and slusheee",
+      "instructions": "Layer slushee and top with boba",
+      "recipeCategoryId": 2,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "filmId": 4,
+      "name": "Kevin's Famous Chili",
+      "imageUrl": "https://thestarvingchefblog.com/wp-content/uploads/2022/05/kevins-famous-chili-the-office-500x500.jpg",
+      "description": "Kevin's Famous Chili recipe from The Office – a delicious copycat recipe straight from Kevin Malone himself!",
+      "ingredients": "32 oz 96% lean ground beef 2 teaspoons paprika 2 teaspoons cumin 1 tablespoon cocoa powder 1 tablespoon thyme 2 tablespoon brown sugar ¼ cup corn meal 2 dried ancho chiles 2 tablespoons olive oil 1 cup onion chopped 1 Anaheim or poblano pepper chopped 2 jalapenos chopped 16 oz kidney beans drained & rinsed 14 oz creamed corn 1 tablespoon garlic minced 1 teaspoon sea salt 1 teaspoon pepper 1 cup tomato chopped 24 oz lager or light beer cheese for topping plain Greek yogurt or sour cream for topping green onion chopped for topping",
+      "instructions": "In a food processor pulse together the paprika, cumin, cocoa powder, thyme, brown sugar, corn meal and dried ancho chiles. Combine until powdered. In a large pot over medium high heat, add the olive oil and heat until shimmery. Add the onions and lightly saute until the onions are 'sweating' but not browning – about 2-3 minutes. Then add the Anaheim and jalapeno peppers. Continue to stir for another 2-3 minutes until the peppers are starting to soften. Stir in the kidney beans, creamed corn, minced garlic and tomato. Season with salt and pepper to taste. Pour in the lagers and bring to a light simmer. Then add the raw ground beef. Use a spoon to break up the beef and stir it into the liquid. Bring to a rolling simmer then cover. Reduce the heat to medium-low and continue to simmer for at least one hour or up to six hours, stirring occasionally. The longer, the better the flavor! ALTERNATIVELY: Carefully transfer the chili to a crock pot and slow cook for 6-8 hours. Serve the chili hot with your favorite toppings like plain Greek yogurt, cheese and green onions. Enjoy!",
+      "recipeCategoryId": 1,
+      "userId": 5,
+      "id": 4
+    },
+    {
+      "filmId": 15,
+      "name": "Krusty Krab Pizza",
+      "imageUrl": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps194724_TH163622C04_20_1b-9.jpg",
+      "description": "People who try it always laugh in surprise because it's so good.",
+      "ingredients": "1/2 pound ground beef 1 prebaked 12-inch pizza crust 1/2 cup ketchup 1/4 cup prepared mustard 1-1/2 cups shredded cheddar cheese 2 cups shredded lettuce 1/2 cup chopped dill pickle 1/4 cup chopped onion 1/2 cup mayonnaise 2 to 3 tablespoons dill pickle juice",
+      "instructions": "Preheat oven to 425°. In a large skillet, cook beef over medium heat until no longer pink, 3-4 minutes, breaking it into crumbles; drain. Meanwhile, place crust on an ungreased baking sheet or pizza pan. Mix ketchup and mustard; spread over crust. Add ground beef; bake 5 minutes. Sprinkle with cheese; bake until cheese is bubbly and crust is lightly browned, 8-10 minutes longer. Top with lettuce, pickle and onion. Whisk mayonnaise and enough pickle juice to reach desired consistency; drizzle over pizza.",
+      "recipeCategoryId": 1,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "filmId": 14,
+      "name": "Tuna Onigiri",
+      "imageUrl": "https://pen-online.com/fr/wp-content/uploads/2022/01/31151031/onigiri-1024x620.jpg",
+      "description": "Simple and healthy, this rice ball contrasts with the rich food that Chihiro's parents gorge on in Hayao Miyazaki's film.",
+      "ingredients": "150-200 g jasmine rice  4 tbsp white vinegar  Salt  Sugar  1 tin regular tuna  500 g mayonnaise  4 sheets nori seaweed",
+      "instructions": "Wash the rice thoroughly in a pan. Drain and rinse until the water is clear. Tip: the volume of water needs to be half a finger greater than that of the rice. Cook the rice.   Once the rice is cooked, pour in the white vinegar and mix with a little salt and sugar.  Break up the tuna in a bowl and mix well with some mayonnaise, to taste.  Dampen the hands and create 4 ‘pancakes’ using the rice. Place a flat layer of tuna on each one, then another flat layer of rice on top. Make them into balls, then shape the corners to form triangles.  Moisten the seaweed sheets, then place them under the onigiri.",
+      "recipeCategoryId": 1,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "filmId": 12,
+      "name": "Fire Gummies",
+      "imageUrl": "https://64.media.tumblr.com/ca7afffb4b37ac573e71076dc953620b/tumblr_inline_no3c6mArmA1tu5gb6_500.jpg",
+      "description": "A type of candy consumed in the Fire Nation and a local specialty on Ember Island. Like most foods in the Fire Nation, they have a little bit of fire-salt sprinkled on top and are extremely spicy. They are available all year.",
+      "ingredients": "2,5 dl (1 cup) rice flour 1 dl (0,4 cups) muscovado sugar (caster sugar works fine too) 1,5 dl (0,6 cups) water Potato starch Filling: About 1 dl (0,4 cups) anko",
+      "instructions": "Combine flour, sugar and water in a microwavable bowl. Mix until the mixture is free from lumps. Cover with plastic film, and place in a microwave on full power for one minute. Then stir the batter, and place in the microwave and cook for another minute. The batter should now have a rubbery, sort of spongy texture. If not, place in the microvave until it does. It’s actuallt a really fun douhg to work with, because of it’s wierd texture, and I listen to this while I made them, which made the whole thing even more fun! ;) Sprinkle some potato stach over a clean surface, and place the dough there. Divide into 12 pieces, roll into little balls and flatten them out. Place about a teaspoon of anko into each sheet, brush the edges with water (that will make them stick together more easily). Turn them over and gently pat them down. And there you have it, delicious little fire gummies!",
+      "recipeCategoryId": 1,
+      "userId": 7,
+      "id": 9
+    },
+    {
+      "filmId": 12,
+      "name": "Fire Flakes",
+      "imageUrl": "http://2.bp.blogspot.com/-uo6QWjE4Drs/UntIvrGwnNI/AAAAAAAAHCk/FaEUMmFTAAQ/s320/Fire+Flakes+closeup.jpg",
+      "description": "A common snack in Fire Nation territories. Consisting of flakes covered with special spices and roasted at extremely high temperatures, fire flakes are infamous for being hot. Badly prepared or expired fire flakes can cause bodily reactions that have been likened to breathing fire. Eating too many fire flakes can cause people to pass out due to their intense heat.",
+      "ingredients": "1 Tbsp. Granulated White Sugar 1 Pkg. Taco Seasoning 1 tsp. Garlic Salt 1/4 - 1/2 tsp. Ground Red Pepper Powder 4 Heaping Cups Plain Corn Flakes 4 Tbsp. Sesame Oil",
+      "instructions": "1. Preheat your oven to 275 F. In a small bowl whisk together the 1st 4 ingredients until combined. 2. Pour the corn flakes into a large container with a lid & then pour on the sesame oil. Close the lid & toss well until the flakes are completely coated. Add the mix of dry ingredients, close the lid, & toss again until the seasoning is distributed evenly throughout the flakes. 3. Line a tray with parchment paper & pour the seasoned flakes onto the tray. Spread the flakes out evenly & bake for about 15 minutes. Serve warm.",
+      "recipeCategoryId": 1,
+      "userId": 7,
+      "id": 10
+    },
+    {
+      "filmId": 12,
+      "name": "Appa's Apple Salad",
+      "imageUrl": "https://preview.redd.it/0vw13bbordg91.jpg?width=640&crop=smart&auto=webp&s=4a888cbd8d7dd09c70187d7dee3740ba2f046d23",
+      "description": "Aang makes this salad for Appa. Super easy to make!",
+      "ingredients": "1 small red cabbage, 1 Fuji or Gala apple cored and sliced thinly, 2 stalks of scallion stemmed and minced, 1-inch knob of fresh ginger peeled and minced, 1tsp kosher salt, 1.5 tsp sesame oil, 1.5 tbsp rice vinegar",
+      "instructions": "In a medium-sized bowl, mix all ingredients thoroughly and serve.",
+      "recipeCategoryId": 1,
+      "userId": 7,
+      "id": 11
+    },
+    {
+      "filmId": 12,
+      "name": "Sokka's Salmon Jerky",
+      "imageUrl": "https://media-cdn.greatbritishchefs.com/media/c20buxg5/img66581.jpg",
+      "description": "Lean and protein-dense.",
+      "ingredients": "550g of salmon fillet, skin-on, boneless 100ml of soy sauce 1 tbsp of lemon juice, freshly squeezed 1 tbsp of maple syrup 2 tsp freshly ground black pepper 1 dash of pepper sauce 2 tsp liquid smoke, of your choice 100g of coarse sea salt",
+      "instructions": "1 Remove the pin bones from the salmon – you can do this yourself or ask your fishmonger to do it for you. Remove the silver flesh from the top of the fillet, but leave the skin on. Wash the fish thoroughly then pat dry 2 Place the fish in the freezer for 30 minutes before you begin, this makes it easier to slice. Once firm, cut into slices approximately 1cm in thickness 3 In a glass or plastic mixing bowl, combine the soy sauce, lemon juice, maple syrup, freshly ground pepper, pepper sauce and the liquid smoke. Whisk the mixture well 4 Place the salmon strips in the bowl of marinade, making sure that every piece is well-coated. Transfer to a sealable bag and allow the salmon to marinate for at least 12 hours in the fridge Partnership Info Block Background Image Products you won't find in your local supermarket 5 Remove the salmon from the marinade (discarding the marinade) and pat dry with a clean kitchen towel. Position a clean wire rack over a baking tray, sprinkle the salmon pieces with coarse salt on both sides and let it 'dry' in the fridge for 2 hours 6 Preheat the oven to 75°C. Brush away all of the salt from the salmon pieces 7 Cover the wire rack with parchment paper or a silicon mat and place over a clean baking sheet. Lay the salmon strips out evenly on top, with space in between each piece 8 Cook the salmon until it reaches 75°C, check this using a thermometer. Lower the heat to 60°C, steadily cooking the fish for about 4 and a half hours in total, flipping halfway through. The final jerky should be crispy outside and chewy and sticky inside – and an absolutely delightful snack",
+      "recipeCategoryId": 1,
+      "userId": 7,
+      "id": 12
+    },
+    {
+      "filmId": 16,
+      "name": "Reptar Bars",
+      "imageUrl": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_73,ar_16:9,w_1024/v1/img/submissions/recipe/2000950850/cNcr0VYSuWMXH9HJEIcw_reptar-bars-1.png",
+      "description": "Reptar Bars!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Reptar Bars!!!! The candy bar supreme, the candy bar that turns your tongue greeEEEeeeen!!!",
+      "ingredients": "24 ounces semi-sweet chocolate chips 1⁄2 cup marshmallow cream 1⁄2 cup caramel candy 2 -3 tablespoons heavy cream 4 drops green food coloring 1⁄4 cup graham cracker crumbs chocolate bar, mold",
+      "instructions": "Melt chocolate over a double boiler on medium low heat (or heatproof bowl on top of a pot of simmering water) until chocolate is smooth. Add chocolate to your mold. Reserve half the chocolate for the last layer of the Reptar Bar. Place mold into the freezer to set. Add your heavy cream and caramel candies to a microwave safe bowl. Heat in microwave at 50% power in 1 minute intervals until caramels are melted. Heat up your marshmallow fluff for 15 seconds. Add green food coloring until your desired green is achieved. Remove chocolate from freezer and add your marshmallow layer to the chocolate but leave a border around the marshmallow to ensure your marshmallow stays in place. Add your graham cracker crumbs and caramel. Place mold back in the freezer. If necessary, reheat your chocolate while your layers set. Remove mold from freezer and add your final layer of chocolate. Return to freezer for 15-30 minutes or until firm. After your Reptar Bars are firm you can either enjoy them fresh or wrap them up in foil and freeze them for up to a month!",
+      "recipeCategoryId": 3,
+      "userId": 1,
+      "id": 13
+    },
+    {
+      "filmId": 17,
+      "name": "Mushroom Toast",
+      "imageUrl": "https://live.staticflickr.com/65535/49905263783_5b580bbbaa_b.jpg",
+      "description": "mushrooms on toast",
+      "ingredients": "\t1 package Fresh Mixed Mushrooms, 1 tbsp Olive Oil, 1/8 cup Dry Sherry, 1 tbsp Butter, 1 sprig of Thyme, 2 slices Whole Grain Toast",
+      "instructions": "\t\tHeat olive oil in a skillet. Saute mushrooms until are mostly soft. De-glaze the pan with the sherry. Add butter and thyme after the sherry is almost completely reduced. Remove thyme and serve on toast.",
+      "recipeCategoryId": 1,
+      "userId": 8,
+      "id": 14
+    },
+    {
+      "filmId": 2,
+      "name": "Butterbeer",
+      "imageUrl": "http://vegetarianbaker.com/wp-content/uploads/2015/10/DSC_0278.jpg",
+      "description": "It's a drink",
+      "ingredients": "Homemade Butterscotch | 3-4 Tbs , Apple Cider | 1 1/2 Cups, Bourbon Whiskey | 1/4 Cup, Ginger Beer (or Ginger Ale) | 1 Cup, Whipped Cream For Garnish",
+      "instructions": "1. Combine the apple cider, butterscotch, and bourbon in a small sauce pan. On low heat, bring to a simmer. The butterscotch should be completely melted. 2. Remove from heat and add the ginger beer. Give it a stir to make sure all is mixed. 3. Ladle into a glass and garnish with a dollop of whipped cream and a drizzle of butterscotch. Serve warm.",
+      "recipeCategoryId": 2,
+      "userId": 1,
+      "id": 15
+    }
+  ],
+  "films": [
+    {
+      "id": 1,
+      "name": "Game of Thrones"
+    },
+    {
+      "id": 2,
+      "name": "Harry Potter"
+    },
+    {
+      "id": 3,
+      "name": "Spirited Away"
+    },
+    {
+      "id": 4,
+      "name": "The Office"
+    },
+    {
+      "id": 5,
+      "name": "Bob's Burgers"
+    },
+    {
+      "id": 6,
+      "name": "Star Wars"
+    },
+    {
+      "id": 7,
+      "name": "World of Warcraft"
+    },
+    {
+      "id": 8,
+      "name": "Orange is the New Black"
+    },
+    {
+      "id": 9,
+      "name": "Golden Girls, The"
+    },
+    {
+      "id": 10,
+      "name": "True Blood"
+    },
+    {
+      "id": 11,
+      "name": "Avatar"
+    },
+    {
+      "id": 12,
+      "name": "Avatar: the Last Air Bender"
+    },
+    {
+      "id": 13,
+      "name": "Kiki's Delivery Service"
+    },
+    {
+      "id": 14,
+      "name": "Spirited Away"
+    },
+    {
+      "id": 15,
+      "name": "Spongebob Squarepants"
+    },
+    {
+      "id": 16,
+      "name": "Rugrats"
+    },
+    {
+      "id": 17,
+      "name": "The Hobbit"
+    }
+  ],
+  "userFavorites": [
+    {
+      "id": 1,
+      "userId": 6,
+      "recipeId": 10
+    },
+    {
+      "userId": 6,
+      "recipeId": "5",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "recipeId": "12",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "recipeId": "9",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "recipeId": "9",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "recipeId": "4",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "recipeId": "1",
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "recipeId": "10",
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "recipeId": "14",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "recipeId": "3",
+      "id": 10
+    },
+    {
+      "userId": 10,
+      "recipeId": "1",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "recipeId": "14",
+      "id": 12
+    }
+  ]
+}
